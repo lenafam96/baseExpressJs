@@ -1,0 +1,22 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "for study",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenafam96/studyNodeJsExpress.git"
+  },
+  "author": "lenafam96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenafam96/studyNodeJsExpress/issues"
+  },
+  "homepage": "https://github.com/lenafam96/studyNodeJsExpress#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
