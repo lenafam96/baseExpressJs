@@ -31,7 +31,7 @@ app.get("/tk-smas-vnedu", (req, res) =>
       {
         name: "Kim Bình",
         u_smas: "hbh_kibc_kimbinh",
-        p_smas: "Kimbinh_2023",
+        p_smas: "Kimbinh@123",
         u_vnedu: "kimbinh2021",
         p_vnedu: "fprbjjgb",
         url_truong: "https://eucuuenvczsgdhoabinh.vnedu.vn/v3",
