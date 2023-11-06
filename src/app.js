@@ -27,14 +27,20 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "thcsvinhtienbkb",
         p_vnedu: "Hb123456@",
         url_truong: "https://namoseaocsgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 5,
+        so_diem_15phut: 5,
+        so_diem_1tiet: 6,
       },
       {
         name: "Kim Bình",
         u_smas: "hbh_kibc_kimbinh",
         p_smas: "Kimbinh@123",
-        u_vnedu: "kimbinh2021",
-        p_vnedu: "fprbjjgb",
+        u_vnedu: "congminh.hbh",
+        p_vnedu: "Thienbinh1@",
         url_truong: "https://eucuuenvczsgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 4,
+        so_diem_15phut: 5,
+        so_diem_1tiet: 6,
       },
       {
         name: "Nam Thượng",
@@ -43,6 +49,9 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "namthuongkb",
         p_vnedu: "5ngbpm9r",
         url_truong: "https://musnvnsuvzsgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 3,
+        so_diem_15phut: 4,
+        so_diem_1tiet: 6,
       },
       {
         name: "Thung Rếch",
@@ -51,6 +60,9 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "hbh_kibd_thungrech",
         p_vnedu: "7vc8g6pn",
         url_truong: "https://namcccoaessgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 3,
+        so_diem_15phut: 4,
+        so_diem_1tiet: 6,
       },
       {
         name: "Đông Bắc",
@@ -59,6 +71,9 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "dongbackb",
         p_vnedu: "25vkrcjc",
         url_truong: "https://musnoosuaesgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 3,
+        so_diem_15phut: 3,
+        so_diem_1tiet: 6,
       },
       {
         name: "Vĩnh Đồng",
@@ -67,6 +82,9 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "ththcsvinhdong_kb",
         p_vnedu: "jzv2rmt9",
         url_truong: "https://vnmonnszzsgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 4,
+        so_diem_15phut: 4,
+        so_diem_1tiet: 6,
       },
       {
         name: "Kim Sơn",
@@ -75,6 +93,9 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "kimsonkb",
         p_vnedu: "9rpp8fcg",
         url_truong: "https://musnveeeeasgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 3,
+        so_diem_15phut: 5,
+        so_diem_1tiet: 6,
       },
       {
         name: "Hạ Bì",
@@ -83,6 +104,9 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "thcshabikb",
         p_vnedu: "f5rk8njx",
         url_truong: "https://ozzeesmunsgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 5,
+        so_diem_15phut: 5,
+        so_diem_1tiet: 6,
       },
       {
         name: "Đồng Tiến",
@@ -91,6 +115,9 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_vnedu: "thcsdongtien_hb",
         p_vnedu: "Hb123456@",
         url_truong: "https://uamszvsvssgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 5,
+        so_diem_15phut: 5,
+        so_diem_1tiet: 6,
       },
     ])
   )
