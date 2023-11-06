@@ -48,8 +48,8 @@ app.get("/tk-smas-vnedu", (req, res) =>
         name: "Thung Rếch",
         u_smas: "hbh_kibd_thungrech",
         p_smas: "Rech2023@",
-        u_vnedu: "adminthungrech_kbi",
-        p_vnedu: "fb49v38p",
+        u_vnedu: "hbh_kibd_thungrech",
+        p_vnedu: "7vc8g6pn",
         url_truong: "https://namcccoaessgdhoabinh.vnedu.vn/v3",
       },
       {
