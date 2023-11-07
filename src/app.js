@@ -58,7 +58,7 @@ app.get("/tk-smas-vnedu", (req, res) =>
         u_smas: "hbh_kibd_thungrech",
         p_smas: "Rech2023@",
         u_vnedu: "congminh.hbh",
-        p_vnedu: "Vnpt@123",
+        p_vnedu: "Vnpt@1234",
         url_truong: "https://namcccoaessgdhoabinh.vnedu.vn/v3",
         so_diem_mieng: 3,
         so_diem_15phut: 4,
