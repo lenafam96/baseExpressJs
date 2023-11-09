@@ -21,6 +21,17 @@ app.get("/tk-smas-vnedu", (req, res) =>
   res.send(
     JSON.stringify([
       {
+        name: "Chọn trường...",
+        u_smas: "",
+        p_smas: "",
+        u_vnedu: "",
+        p_vnedu: "",
+        url_truong: "",
+        so_diem_mieng: 5,
+        so_diem_15phut: 5,
+        so_diem_1tiet: 6,
+      },
+      {
         name: "Vĩnh Tiến",
         u_smas: "hbh_kibc_vinhtien",
         p_smas: "KB1234vt@",
