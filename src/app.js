@@ -131,6 +131,17 @@ app.get("/tk-smas-vnedu", (req, res) =>
         so_diem_1tiet: 6,
       },
       {
+        name: "Sơn Thuỷ",
+        u_smas: "hbh_kibc_sonthuy",
+        p_smas: "KimBoi2022@",
+        u_vnedu: "congminh.hbh",
+        p_vnedu: "Vnpt@1234",
+        url_truong: "https://musnovemszsgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 3,
+        so_diem_15phut: 3,
+        so_diem_1tiet: 7,
+      },
+      {
         name: "Đồng Tiến",
         u_smas: "hbh_thpc_dongtien",
         p_smas: "B3l6qm2U",
