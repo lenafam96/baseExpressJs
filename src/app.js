@@ -162,7 +162,7 @@ app.get("/tk-smas-vnedu", (req, res) =>
         so_diem_mieng: 5,
         so_diem_15phut: 5,
         so_diem_1tiet: 7,
-      // },
+      },
       // {
       //   name: "Lập Chiệng",
       //   u_smas: "hbh_kibc_bthom",
