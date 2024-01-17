@@ -185,6 +185,17 @@ app.get("/tk-smas-vnedu", (req, res) =>
         so_diem_15phut: 5,
         so_diem_1tiet: 6,
       },
+      {
+        name: "DTNT Tỉnh",
+        u_smas: "hbh_thpt_dantocnoitru",
+        p_smas: "Dtnttinh@2025",
+        u_vnedu: "admin_dantocnoitrutinh",
+        p_vnedu: "Hb123456789@",
+        url_truong: "https://uauuzvmausgdhoabinh.vnedu.vn/v3",
+        so_diem_mieng: 2,
+        so_diem_15phut: 5,
+        so_diem_1tiet: 5,
+      },
     ])
   )
 );
