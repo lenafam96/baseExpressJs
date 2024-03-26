@@ -17,6 +17,8 @@ app.get("/", (req, res) => res.send("Hello World!"));
 
 app.get("/test", (req, res) => res.render("sample.ejs"));
 
+app.get("/api/endpoint", (req, res) => res.sen(JSON.stringify(['fovwae5mxlivt'])));
+
 app.get("/tk-smas-vnedu", (req, res) =>
   res.send(
     JSON.stringify([
