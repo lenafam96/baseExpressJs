@@ -5,6 +5,14 @@ const path = require("path");
 const app = express(); //app express
 const port = process.env.PORT;
 
+// config cors
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET");
+  res.header("Access-Control-Allow-Headers", "Content-Type");
+  next();
+});
+
 // config template engine
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
