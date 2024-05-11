@@ -2,8 +2,6 @@ const express = require("express");
 require("dotenv").config();
 const path = require("path");
 
-const { endpoint_app, endpoint_web} = require("./evn");
-
 const app = express(); //app express
 const port = process.env.PORT;
 
