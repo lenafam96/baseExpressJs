@@ -2,8 +2,6 @@ const express = require("express");
 require("dotenv").config();
 const path = require("path");
 
-const arrayAccount = require("./vnEdu");
-
 const { endpoint_app, endpoint_web} = require("./evn");
 
 const app = express(); //app express
@@ -28,17 +26,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/", (req, res) => res.send("Hello World!"));
 
 app.get("/test", (req, res) => res.render("sample.ejs"));
-
-app.get("/api/endpoint", (req, res) => res.send(JSON.stringify([{id: 'fovwae5mxlivt'}])));
-
-app.get("/tk-smas-vnedu", (req, res) =>
-  res.send(
-    JSON.stringify(arrayAccount)
-  )
-);
-
-app.get("/endpoint-evn-app", (req, res) => res.send(endpoint_app));
-app.get("/endpoint-evn-web", (req, res) => res.send(endpoint_web));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
